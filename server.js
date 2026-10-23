@@ -11,5 +11,5 @@ app.use((req, res, next) => {
   });
   next();
 });
-app.use(express.static(path.join(__dirname, 'public'), { maxAge: '1h' }));
+app.use(express.static(path.join(__dirname, 'site'), { maxAge: '1h' }));
 app.listen(process.env.PORT || 3000, () => console.log('LabPy running'));

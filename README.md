@@ -4,7 +4,7 @@ Python in the browser. A multi-file editor (CodeMirror 6) runs Python (Pyodide /
 Code runs on the visitor's machine, never on your server.
 
 ## Run locally
-    npm install      # also builds public/app.js
+    npm install      # also builds site/app.js
     npm start        # http://localhost:3000
 
 ## Deploy on Hostinger (Node.js Web App, from GitHub)
@@ -14,7 +14,7 @@ Code runs on the visitor's machine, never on your server.
 4. Deploy. Every push to the branch redeploys.
 
 ## Notes
-- Pyodide version is set in `public/worker.js` (`V`). Runtime and packages load from jsDelivr.
+- Pyodide version is set in `site/worker.js` (`V`). Runtime and packages load from jsDelivr.
 - `server.js` sends COOP/COEP headers. These enable input(). Needs HTTPS (or localhost).
 - Stop terminates the worker and restarts Python (state is reset).
 - Files are saved in the browser (localStorage). "Copy share link" encodes all files into the URL.

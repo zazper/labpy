@@ -2,7 +2,7 @@
 node_modules/
 
 # build output (recreated by npm install)
-public/app.js
+site/app.js
 
 # logs
 *.log
