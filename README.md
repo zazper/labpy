@@ -18,3 +18,9 @@ Code runs on the visitor's machine, never on your server.
 - `server.js` sends COOP/COEP headers. These enable input(). Needs HTTPS (or localhost).
 - Stop terminates the worker and restarts Python (state is reset).
 - Files are saved in the browser (localStorage). "Copy share link" encodes all files into the URL.
+
+## License & Ownership
+
+This project is licensed under the GNU Affero General Public License v3.0 (AGPLv3). 
+
+Copyright (c) 2026 zazper and Middle Digit Media LLC. All rights reserved.
