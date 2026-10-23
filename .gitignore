@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# build output (recreated by npm install)
+public/app.js
+
+# logs
+*.log
+npm-debug.log*
+
+# environment and secrets
+.env
+.env.*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
