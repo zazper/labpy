@@ -98,8 +98,15 @@ case "$cmd" in
       if [ "$ahead" = 0 ] && [ "$behind" = 0 ]; then echo "  $b: in sync with origin/$b"
       else
         echo "  $b: $ahead ahead, $behind behind origin/$b"
-        [ "$behind" != 0 ] && add_hint "Get GitHub's changes into $b:  git pull --ff-only   (on branch $b)"
-        [ "$ahead" != 0 ] && add_hint "Send local commits to GitHub:  git push   (on branch $b)"
+        if [ "$ahead" != 0 ] && [ "$behind" != 0 ]; then
+          add_hint "$b has diverged from GitHub. Run 'git pull' on $b (resolve any conflicts), then check again. Do not force-push."
+        elif [ "$behind" != 0 ]; then
+          add_hint "Get GitHub's changes into $b:  git pull --ff-only   (on branch $b)"
+        elif [ "$b" = "main" ]; then
+          add_hint "Local commits on main are not on GitHub. Pushing main deploys to Hostinger, so release instead (it pushes them for you):  bash scripts/release.sh patch   (try 'dry patch' first). A plain 'git push' would also deploy, but with no version or tag."
+        else
+          add_hint "Send local commits to GitHub:  git push   (on branch $b; this does not deploy)"
+        fi
       fi
       return 0
     }
