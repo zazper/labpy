@@ -50,6 +50,23 @@ sys.path.insert(0, '/home/pyodide')
   post({ type: 'ready' });
 }
 
+function walk(d, out) {
+  for (const n of py.FS.readdir(d)) {
+    if (n === '.' || n === '..' || n === '__pycache__') continue;
+    const p = d + '/' + n, st = py.FS.stat(p);
+    if (py.FS.isDir(st.mode)) walk(p, out); else out.push([p, st]);
+  }
+}
+// Report files the script created or changed (not our own source files) so the page can offer them for download.
+function collect(t0) {
+  const all = []; walk('/home/pyodide', all);
+  for (const [p, st] of all) {
+    const rel = p.slice('/home/pyodide/'.length);
+    if (written.includes(rel) || +st.mtime < t0 || st.size > 100e6) continue;
+    post({ type: 'outfile', name: rel, data: py.FS.readFile(p) });
+  }
+}
+
 function cleanTrace(msg) {
   const ls = String(msg).split('\n'), o = [];
   for (let i = 0; i < ls.length; i++) {
@@ -61,6 +78,7 @@ function cleanTrace(msg) {
 
 async function run({ files, entry }) {
   let ok = true;
+  const t0 = Date.now() - 2000;
   try {
     py.runPython(`
 import sys, importlib
@@ -99,6 +117,7 @@ _out`);
     for (const p of figs.toJs()) post({ type: 'plot', png: p });
     figs.destroy();
   } catch (e) {}
+  try { collect(t0); } catch (e) {}
   post({ type: 'done', ok });
 }
 

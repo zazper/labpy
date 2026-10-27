@@ -19,6 +19,12 @@ Code runs on the visitor's machine, never on your server.
 - Stop terminates the worker and restarts Python (state is reset).
 - Files are saved in the browser (localStorage). "Copy share link" encodes all files into the URL.
 
+## Install, update and release
+
+See [INSTALL.md](INSTALL.md) for setup, applying update zips
+(`bash scripts/apply-update.sh`), releasing (`bash scripts/release.sh help`)
+and troubleshooting. Design and planning documents are in [docs/](docs/README.md).
+
 ## License & Ownership
 
 This project is licensed under the GNU Affero General Public License v3.0 (AGPLv3). 

@@ -7,28 +7,55 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="loader"><div class="card">
-  <h2>Loading Python</h2>
-  <p id="lstatus">Starting…</p>
-  <div class="bar"><div id="lbar"></div></div>
-  <p class="muted" id="lsub">First visit only: about 12 MB. It is cached after this.</p>
-</div></div>
 <header>
+  <button id="menuBtn" aria-label="Open menu" aria-expanded="false"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 4h12M2 8h12M2 12h12"/></svg></button>
   <b class="logo">LabPy</b>
-  <button id="run" class="primary" disabled>Run</button>
+  <button id="run" class="primary">Run</button>
   <button id="stop" disabled>Stop</button>
-  <button id="clear">Clear output</button>
-  <select id="examples"><option value="">Load an example…</option></select>
+  <button id="clear">Clear</button>
+  <button id="format">Format</button>
+  <button id="check">Check</button>
+  <select id="examples" aria-label="Examples"><option value="">Examples…</option></select>
   <span class="sp"></span>
-  <button id="share">Copy share link</button>
+  <button id="share" title="Copies a link that contains all your files">Copy share link</button>
   <button id="upload">Upload files</button>
-  <button id="download">Download file</button>
-  <span id="state" class="muted">Loading…</span>
+  <div class="dd">
+    <button id="dl" aria-haspopup="true" aria-expanded="false">Download ▾</button>
+    <div id="dlMenu" class="menu" hidden>
+      <button data-dl="file">This file</button>
+      <button data-dl="zip">All files (.zip)</button>
+      <button data-dl="out" id="dlOut" disabled>Output files (0)</button>
+    </div>
+  </div>
+  <span id="state" class="muted">Ready</span>
 </header>
-<nav id="tabs"></nav>
+<nav id="tabs"><div id="tabList"></div><span id="tabActions" hidden><button id="back">‹ Back to lesson</button> <button id="saveCopy">Save a copy</button></span></nav>
 <main>
-  <section id="editor"></section>
-  <section id="out"><pre id="console"></pre><div id="plots"></div></section>
+  <div id="scrim" hidden></div>
+  <aside id="drawer" hidden aria-label="Menu">
+    <span class="rl">Menu</span>
+    <div class="th"><b class="logo">LabPy</b><button id="menuClose" aria-label="Close menu">✕</button></div>
+    <button class="it" id="learn">Learn Python ›</button>
+    <button class="it" id="ex2">Examples</button>
+    <button class="it" disabled>AI assistant <span class="muted">· soon</span></button>
+    <hr>
+    <button class="it" disabled>Sign in <span class="muted">· soon</span></button>
+    <button class="it" disabled>Create free account <span class="muted">· soon</span></button>
+  </aside>
+  <aside id="topics" aria-label="Python topics">
+    <div class="th"><span class="pair"><button id="mfold" aria-label="Collapse menu" title="Collapse menu">«</button><button id="tfold" aria-label="Collapse topics" title="Collapse topics">»</button></span><b>Python topics</b><button id="topicsClose" aria-label="Close tutorial">✕</button></div>
+    <span class="rl">Topics</span>
+    <input id="tsearch" type="search" placeholder="Search topics" aria-label="Search topics">
+    <div id="tlist"></div>
+  </aside>
+  <section id="doc" aria-live="polite"></section>
+  <section id="work">
+    <div id="left"><div id="editor"></div><div id="problems" hidden></div></div>
+    <section id="out">
+      <div id="load" hidden><b id="lstatus">Starting…</b><div class="bar"><div id="lbar"></div></div><div class="muted" id="lsub">First run only: about 12 MB, then it is cached.</div></div>
+      <pre id="console"></pre><div id="plots"></div>
+    </section>
+  </section>
 </main>
 <input type="file" id="file" multiple hidden>
 <script src="app.js"></script>

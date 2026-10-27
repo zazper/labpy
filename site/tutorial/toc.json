@@ -1,0 +1,783 @@
+{
+ "groups": [
+  {
+   "title": "Getting started",
+   "topics": [
+    {
+     "id": "1.1",
+     "title": "Welcome to Python and LabPy",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "1.2",
+     "title": "Syntax and indentation",
+     "level": "B",
+     "runs": "Local",
+     "file": "syntax-and-indentation.md"
+    },
+    {
+     "id": "1.3",
+     "title": "Output with print()",
+     "level": "B",
+     "runs": "Local",
+     "file": "output-with-print.md"
+    },
+    {
+     "id": "1.4",
+     "title": "Comments",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "1.5",
+     "title": "Variables",
+     "level": "B",
+     "runs": "Local",
+     "file": "variables.md"
+    },
+    {
+     "id": "1.6",
+     "title": "Naming rules and style (PEP 8)",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "1.7",
+     "title": "Input from the user",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    }
+   ]
+  },
+  {
+   "title": "Data types",
+   "topics": [
+    {
+     "id": "2.1",
+     "title": "Types overview and type()",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "2.2",
+     "title": "Numbers",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "2.3",
+     "title": "Casting",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "2.4",
+     "title": "Strings",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "2.5",
+     "title": "String methods",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "2.6",
+     "title": "Formatting strings (f-strings)",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "2.7",
+     "title": "Booleans and None",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "2.8",
+     "title": "Operators",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    }
+   ]
+  },
+  {
+   "title": "Collections",
+   "topics": [
+    {
+     "id": "3.1",
+     "title": "Lists",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "3.2",
+     "title": "List methods",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "3.3",
+     "title": "Slicing",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "3.4",
+     "title": "Tuples",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "3.5",
+     "title": "Unpacking",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "3.6",
+     "title": "Sets",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "3.7",
+     "title": "Dictionaries",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "3.8",
+     "title": "Dictionary methods",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "3.9",
+     "title": "Sorting",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "3.10",
+     "title": "Copying: shallow vs deep",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    }
+   ]
+  },
+  {
+   "title": "Control flow",
+   "topics": [
+    {
+     "id": "4.1",
+     "title": "If",
+     "level": "B",
+     "runs": "Local",
+     "file": "if.md"
+    },
+    {
+     "id": "4.2",
+     "title": "Elif and Else",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "4.3",
+     "title": "Shorthand if",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "4.4",
+     "title": "Logical operators in conditions",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "4.5",
+     "title": "Nested if",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "4.6",
+     "title": "Pass",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "4.7",
+     "title": "Match (pattern matching)",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "4.8",
+     "title": "While loops",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "4.9",
+     "title": "For loops",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "4.10",
+     "title": "range()",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "4.11",
+     "title": "break, continue and loop else",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "4.12",
+     "title": "enumerate() and zip()",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    }
+   ]
+  },
+  {
+   "title": "Functions",
+   "topics": [
+    {
+     "id": "5.1",
+     "title": "Defining functions",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "5.2",
+     "title": "Arguments: positional, keyword, default",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "5.3",
+     "title": "*args and **kwargs",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "5.4",
+     "title": "Return values",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "5.5",
+     "title": "Scope: global and nonlocal",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "5.6",
+     "title": "Lambda",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "5.7",
+     "title": "Recursion",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "5.8",
+     "title": "Closures",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "5.9",
+     "title": "Decorators",
+     "level": "A",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "5.10",
+     "title": "Type hints",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "5.11",
+     "title": "Docstrings",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "5.12",
+     "title": "Built-in functions tour",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    }
+   ]
+  },
+  {
+   "title": "Comprehensions and iterators",
+   "topics": [
+    {
+     "id": "6.1",
+     "title": "List comprehensions",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "6.2",
+     "title": "Dict and set comprehensions",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "6.3",
+     "title": "Iterators",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "6.4",
+     "title": "Generators and yield",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "6.5",
+     "title": "Generator expressions",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "6.6",
+     "title": "itertools tour",
+     "level": "A",
+     "runs": "Local",
+     "file": null
+    }
+   ]
+  },
+  {
+   "title": "Classes and objects",
+   "topics": [
+    {
+     "id": "7.1",
+     "title": "Classes and objects",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "7.2",
+     "title": "__init__ and self",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "7.3",
+     "title": "Methods",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "7.4",
+     "title": "Inheritance",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "7.5",
+     "title": "Polymorphism",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "7.6",
+     "title": "Special (dunder) methods",
+     "level": "A",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "7.7",
+     "title": "Properties",
+     "level": "A",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "7.8",
+     "title": "Class and static methods",
+     "level": "A",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "7.9",
+     "title": "Dataclasses",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "7.10",
+     "title": "Enums",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    }
+   ]
+  },
+  {
+   "title": "Errors and debugging",
+   "topics": [
+    {
+     "id": "8.1",
+     "title": "try and except",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "8.2",
+     "title": "finally and else",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "8.3",
+     "title": "Raising exceptions",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "8.4",
+     "title": "Custom exceptions",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "8.5",
+     "title": "Assertions",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "8.6",
+     "title": "Debugging basics and tracebacks",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    }
+   ]
+  },
+  {
+   "title": "Modules and packages",
+   "topics": [
+    {
+     "id": "9.1",
+     "title": "Modules and import",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "9.2",
+     "title": "Packages",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "9.3",
+     "title": "The __main__ check",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "9.4",
+     "title": "Standard library tour",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "9.5",
+     "title": "Installing packages (micropip)",
+     "level": "I",
+     "runs": "Package",
+     "file": null
+    },
+    {
+     "id": "9.6",
+     "title": "Virtual environments (concept)",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    }
+   ]
+  },
+  {
+   "title": "Files and data formats",
+   "topics": [
+    {
+     "id": "10.1",
+     "title": "Reading and writing files",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "10.2",
+     "title": "Context managers (with)",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "10.3",
+     "title": "pathlib",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "10.4",
+     "title": "CSV",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "10.5",
+     "title": "JSON",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "10.6",
+     "title": "Dates and times",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "10.7",
+     "title": "Regular expressions",
+     "level": "A",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "10.8",
+     "title": "SQLite with sqlite3",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "10.9",
+     "title": "Command line and environment (sys, os)",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    }
+   ]
+  },
+  {
+   "title": "Testing and quality",
+   "topics": [
+    {
+     "id": "11.1",
+     "title": "unittest",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "11.2",
+     "title": "pytest",
+     "level": "I",
+     "runs": "Package",
+     "file": null
+    },
+    {
+     "id": "11.3",
+     "title": "Type checking with mypy",
+     "level": "A",
+     "runs": "Package",
+     "file": null
+    },
+    {
+     "id": "11.4",
+     "title": "Linting and formatting with Ruff",
+     "level": "B",
+     "runs": "Local",
+     "file": null
+    }
+   ]
+  },
+  {
+   "title": "Concurrency and performance",
+   "topics": [
+    {
+     "id": "12.1",
+     "title": "Async and await",
+     "level": "A",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "12.2",
+     "title": "Threading",
+     "level": "A",
+     "runs": "Cloud",
+     "file": null
+    },
+    {
+     "id": "12.3",
+     "title": "Multiprocessing",
+     "level": "A",
+     "runs": "Cloud",
+     "file": null
+    },
+    {
+     "id": "12.4",
+     "title": "concurrent.futures",
+     "level": "A",
+     "runs": "Cloud",
+     "file": null
+    },
+    {
+     "id": "12.5",
+     "title": "Timing and profiling",
+     "level": "I",
+     "runs": "Local",
+     "file": null
+    },
+    {
+     "id": "12.6",
+     "title": "Memory use and large files (streaming)",
+     "level": "A",
+     "runs": "Cloud",
+     "file": null
+    },
+    {
+     "id": "12.7",
+     "title": "Performance tips",
+     "level": "A",
+     "runs": "Local",
+     "file": null
+    }
+   ]
+  },
+  {
+   "title": "Data and science",
+   "topics": [
+    {
+     "id": "13.1",
+     "title": "NumPy",
+     "level": "I",
+     "runs": "Package",
+     "file": null
+    },
+    {
+     "id": "13.2",
+     "title": "pandas",
+     "level": "I",
+     "runs": "Package",
+     "file": null
+    },
+    {
+     "id": "13.3",
+     "title": "matplotlib",
+     "level": "I",
+     "runs": "Package",
+     "file": null
+    },
+    {
+     "id": "13.4",
+     "title": "SciPy",
+     "level": "A",
+     "runs": "Package",
+     "file": null
+    },
+    {
+     "id": "13.5",
+     "title": "scikit-learn introduction",
+     "level": "A",
+     "runs": "Package",
+     "file": null
+    }
+   ]
+  }
+ ]
+}
