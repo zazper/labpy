@@ -8,7 +8,7 @@
      "title": "Welcome to Python and LabPy",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "welcome-to-python-and-labpy.md"
     },
     {
      "id": "1.2",
@@ -29,7 +29,7 @@
      "title": "Comments",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "comments.md"
     },
     {
      "id": "1.5",
@@ -43,14 +43,14 @@
      "title": "Naming rules and style (PEP 8)",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "naming-rules-and-style-pep-8.md"
     },
     {
      "id": "1.7",
      "title": "Input from the user",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "input-from-the-user.md"
     }
    ]
   },
@@ -62,56 +62,56 @@
      "title": "Types overview and type()",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "types-overview-and-type.md"
     },
     {
      "id": "2.2",
      "title": "Numbers",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "numbers.md"
     },
     {
      "id": "2.3",
      "title": "Casting",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "casting.md"
     },
     {
      "id": "2.4",
      "title": "Strings",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "strings.md"
     },
     {
      "id": "2.5",
      "title": "String methods",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "string-methods.md"
     },
     {
      "id": "2.6",
      "title": "Formatting strings (f-strings)",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "formatting-strings-f-strings.md"
     },
     {
      "id": "2.7",
      "title": "Booleans and None",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "booleans-and-none.md"
     },
     {
      "id": "2.8",
      "title": "Operators",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "operators.md"
     }
    ]
   },
@@ -123,70 +123,70 @@
      "title": "Lists",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "lists.md"
     },
     {
      "id": "3.2",
      "title": "List methods",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "list-methods.md"
     },
     {
      "id": "3.3",
      "title": "Slicing",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "slicing.md"
     },
     {
      "id": "3.4",
      "title": "Tuples",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "tuples.md"
     },
     {
      "id": "3.5",
      "title": "Unpacking",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "unpacking.md"
     },
     {
      "id": "3.6",
      "title": "Sets",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "sets.md"
     },
     {
      "id": "3.7",
      "title": "Dictionaries",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "dictionaries.md"
     },
     {
      "id": "3.8",
      "title": "Dictionary methods",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "dictionary-methods.md"
     },
     {
      "id": "3.9",
      "title": "Sorting",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "sorting.md"
     },
     {
      "id": "3.10",
      "title": "Copying: shallow vs deep",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "copying-shallow-vs-deep.md"
     }
    ]
   },
@@ -205,77 +205,77 @@
      "title": "Elif and Else",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "elif-and-else.md"
     },
     {
      "id": "4.3",
      "title": "Shorthand if",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "shorthand-if.md"
     },
     {
      "id": "4.4",
      "title": "Logical operators in conditions",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "logical-operators-in-conditions.md"
     },
     {
      "id": "4.5",
      "title": "Nested if",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "nested-if.md"
     },
     {
      "id": "4.6",
      "title": "Pass",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "pass.md"
     },
     {
      "id": "4.7",
      "title": "Match (pattern matching)",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "match-pattern-matching.md"
     },
     {
      "id": "4.8",
      "title": "While loops",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "while-loops.md"
     },
     {
      "id": "4.9",
      "title": "For loops",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "for-loops.md"
     },
     {
      "id": "4.10",
      "title": "range()",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "range.md"
     },
     {
      "id": "4.11",
      "title": "break, continue and loop else",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "break-continue-and-loop-else.md"
     },
     {
      "id": "4.12",
      "title": "enumerate() and zip()",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "enumerate-and-zip.md"
     }
    ]
   },
@@ -287,84 +287,84 @@
      "title": "Defining functions",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "defining-functions.md"
     },
     {
      "id": "5.2",
      "title": "Arguments: positional, keyword, default",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "arguments-positional-keyword-default.md"
     },
     {
      "id": "5.3",
      "title": "*args and **kwargs",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "args-and-kwargs.md"
     },
     {
      "id": "5.4",
      "title": "Return values",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "return-values.md"
     },
     {
      "id": "5.5",
      "title": "Scope: global and nonlocal",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "scope-global-and-nonlocal.md"
     },
     {
      "id": "5.6",
      "title": "Lambda",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "lambda.md"
     },
     {
      "id": "5.7",
      "title": "Recursion",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "recursion.md"
     },
     {
      "id": "5.8",
      "title": "Closures",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "closures.md"
     },
     {
      "id": "5.9",
      "title": "Decorators",
      "level": "A",
      "runs": "Local",
-     "file": null
+     "file": "decorators.md"
     },
     {
      "id": "5.10",
      "title": "Type hints",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "type-hints.md"
     },
     {
      "id": "5.11",
      "title": "Docstrings",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "docstrings.md"
     },
     {
      "id": "5.12",
      "title": "Built-in functions tour",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "built-in-functions-tour.md"
     }
    ]
   },
@@ -376,42 +376,42 @@
      "title": "List comprehensions",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "list-comprehensions.md"
     },
     {
      "id": "6.2",
      "title": "Dict and set comprehensions",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "dict-and-set-comprehensions.md"
     },
     {
      "id": "6.3",
      "title": "Iterators",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "iterators.md"
     },
     {
      "id": "6.4",
      "title": "Generators and yield",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "generators-and-yield.md"
     },
     {
      "id": "6.5",
      "title": "Generator expressions",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "generator-expressions.md"
     },
     {
      "id": "6.6",
      "title": "itertools tour",
      "level": "A",
      "runs": "Local",
-     "file": null
+     "file": "itertools-tour.md"
     }
    ]
   },
@@ -423,70 +423,70 @@
      "title": "Classes and objects",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "classes-and-objects.md"
     },
     {
      "id": "7.2",
      "title": "__init__ and self",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "init-and-self.md"
     },
     {
      "id": "7.3",
      "title": "Methods",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "methods.md"
     },
     {
      "id": "7.4",
      "title": "Inheritance",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "inheritance.md"
     },
     {
      "id": "7.5",
      "title": "Polymorphism",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "polymorphism.md"
     },
     {
      "id": "7.6",
      "title": "Special (dunder) methods",
      "level": "A",
      "runs": "Local",
-     "file": null
+     "file": "special-dunder-methods.md"
     },
     {
      "id": "7.7",
      "title": "Properties",
      "level": "A",
      "runs": "Local",
-     "file": null
+     "file": "properties.md"
     },
     {
      "id": "7.8",
      "title": "Class and static methods",
      "level": "A",
      "runs": "Local",
-     "file": null
+     "file": "class-and-static-methods.md"
     },
     {
      "id": "7.9",
      "title": "Dataclasses",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "dataclasses.md"
     },
     {
      "id": "7.10",
      "title": "Enums",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "enums.md"
     }
    ]
   },
@@ -498,42 +498,42 @@
      "title": "try and except",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "try-and-except.md"
     },
     {
      "id": "8.2",
      "title": "finally and else",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "finally-and-else.md"
     },
     {
      "id": "8.3",
      "title": "Raising exceptions",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "raising-exceptions.md"
     },
     {
      "id": "8.4",
      "title": "Custom exceptions",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "custom-exceptions.md"
     },
     {
      "id": "8.5",
      "title": "Assertions",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "assertions.md"
     },
     {
      "id": "8.6",
      "title": "Debugging basics and tracebacks",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "debugging-basics-and-tracebacks.md"
     }
    ]
   },
@@ -545,42 +545,42 @@
      "title": "Modules and import",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "modules-and-import.md"
     },
     {
      "id": "9.2",
      "title": "Packages",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "packages.md"
     },
     {
      "id": "9.3",
      "title": "The __main__ check",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "the-main-check.md"
     },
     {
      "id": "9.4",
      "title": "Standard library tour",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "standard-library-tour.md"
     },
     {
      "id": "9.5",
      "title": "Installing packages (micropip)",
      "level": "I",
      "runs": "Package",
-     "file": null
+     "file": "installing-packages-micropip.md"
     },
     {
      "id": "9.6",
      "title": "Virtual environments (concept)",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "virtual-environments-concept.md"
     }
    ]
   },
@@ -592,63 +592,63 @@
      "title": "Reading and writing files",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "reading-and-writing-files.md"
     },
     {
      "id": "10.2",
      "title": "Context managers (with)",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "context-managers-with.md"
     },
     {
      "id": "10.3",
      "title": "pathlib",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "pathlib.md"
     },
     {
      "id": "10.4",
      "title": "CSV",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "csv.md"
     },
     {
      "id": "10.5",
      "title": "JSON",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "json.md"
     },
     {
      "id": "10.6",
      "title": "Dates and times",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "dates-and-times.md"
     },
     {
      "id": "10.7",
      "title": "Regular expressions",
      "level": "A",
      "runs": "Local",
-     "file": null
+     "file": "regular-expressions.md"
     },
     {
      "id": "10.8",
      "title": "SQLite with sqlite3",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "sqlite-with-sqlite3.md"
     },
     {
      "id": "10.9",
      "title": "Command line and environment (sys, os)",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "command-line-and-environment-sys-os.md"
     }
    ]
   },
@@ -660,28 +660,28 @@
      "title": "unittest",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "unittest.md"
     },
     {
      "id": "11.2",
      "title": "pytest",
      "level": "I",
      "runs": "Package",
-     "file": null
+     "file": "pytest.md"
     },
     {
      "id": "11.3",
      "title": "Type checking with mypy",
      "level": "A",
      "runs": "Package",
-     "file": null
+     "file": "type-checking-with-mypy.md"
     },
     {
      "id": "11.4",
      "title": "Linting and formatting with Ruff",
      "level": "B",
      "runs": "Local",
-     "file": null
+     "file": "linting-and-formatting-with-ruff.md"
     }
    ]
   },
@@ -693,49 +693,49 @@
      "title": "Async and await",
      "level": "A",
      "runs": "Local",
-     "file": null
+     "file": "async-and-await.md"
     },
     {
      "id": "12.2",
      "title": "Threading",
      "level": "A",
      "runs": "Cloud",
-     "file": null
+     "file": "threading.md"
     },
     {
      "id": "12.3",
      "title": "Multiprocessing",
      "level": "A",
      "runs": "Cloud",
-     "file": null
+     "file": "multiprocessing.md"
     },
     {
      "id": "12.4",
      "title": "concurrent.futures",
      "level": "A",
      "runs": "Cloud",
-     "file": null
+     "file": "concurrent-futures.md"
     },
     {
      "id": "12.5",
      "title": "Timing and profiling",
      "level": "I",
      "runs": "Local",
-     "file": null
+     "file": "timing-and-profiling.md"
     },
     {
      "id": "12.6",
      "title": "Memory use and large files (streaming)",
      "level": "A",
      "runs": "Cloud",
-     "file": null
+     "file": "memory-use-and-large-files-streaming.md"
     },
     {
      "id": "12.7",
      "title": "Performance tips",
      "level": "A",
      "runs": "Local",
-     "file": null
+     "file": "performance-tips.md"
     }
    ]
   },
@@ -747,35 +747,35 @@
      "title": "NumPy",
      "level": "I",
      "runs": "Package",
-     "file": null
+     "file": "numpy.md"
     },
     {
      "id": "13.2",
      "title": "pandas",
      "level": "I",
      "runs": "Package",
-     "file": null
+     "file": "pandas.md"
     },
     {
      "id": "13.3",
      "title": "matplotlib",
      "level": "I",
      "runs": "Package",
-     "file": null
+     "file": "matplotlib.md"
     },
     {
      "id": "13.4",
      "title": "SciPy",
      "level": "A",
      "runs": "Package",
-     "file": null
+     "file": "scipy.md"
     },
     {
      "id": "13.5",
      "title": "scikit-learn introduction",
      "level": "A",
      "runs": "Package",
-     "file": null
+     "file": "scikit-learn-introduction.md"
     }
    ]
   }

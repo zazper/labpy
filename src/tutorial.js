@@ -18,7 +18,12 @@ function hl(src) {
   }).join('\n');
 }
 
-const inl = (s) => esc(s).replace(/`([^`]+)`/g, '<code>$1</code>').replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>');
+// Inline formatting. Code spans are set aside first so ** inside `code` is never treated as bold.
+const inl = (s) => {
+  const codes = [];
+  const t = esc(s).replace(/`([^`]+)`/g, (m, c) => '\u0000' + (codes.push(c) - 1) + '\u0000').replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>');
+  return t.replace(/\u0000(\d+)\u0000/g, (m, i) => '<code>' + codes[i] + '</code>');
+};
 
 function sample(kind, title, text, n) {
   if (kind === 'cloud') {
