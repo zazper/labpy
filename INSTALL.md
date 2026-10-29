@@ -58,7 +58,28 @@ Use `patch` for fixes, `minor` for features, `major` for breaking changes. `bash
     site/tutorial/       tutorial topics (.md) and toc.json (the topic list and order)
     src/                 browser source code, bundled into site/app.js
     scripts/             build.js, release.js, release.sh, apply-update.sh
+    test/                tests (npm test)
     docs/                design and planning documents (versioned)
+
+## Tests
+
+LabPy has a test suite that needs no extra packages (it uses Node's built-in test runner).
+
+    npm test                  # fast checks (about 10 seconds)
+    npm run test:samples      # runs every tutorial example in real Python (slow; needs Python 3.11 or newer)
+
+What `npm test` checks:
+
+- **Tutorial content:** `toc.json` is valid, every topic has a file, no orphan files, code fences are balanced, and no browser example uses threads or processes (those must be marked `cloud`).
+- **Markdown renderer:** headings, lists, inline code, Try it buttons, locked cloud samples, and every topic renders.
+- **Page:** every element id the code uses exists in `index.html` (this catches the "blank page after an update" problem), files it references exist, and plain JavaScript files have valid syntax.
+- **Release script:** version bumps (patch, minor, major, explicit) in a temporary repo, and that a lower version is refused.
+- **Build:** `npm run build` produces `site/app.js` and copies the Ruff wasm file.
+- **Server:** pages and files carry the COOP/COEP headers (needed for `input()`), the tutorial and bundle are served, and unknown paths return 404.
+
+`npm run test:samples` runs each runnable example. An example whose title contains the word "error" must fail; all others must succeed. Samples that need numpy, pandas, matplotlib, scipy or scikit-learn are skipped if those are not installed. To use a specific Python, set `LABPY_PYTHON` (for example `LABPY_PYTHON=python3.12`). To test one topic: `node test/run.mjs --samples --only decorators`. Run everything with `node test/run.mjs --all`.
+
+Run `npm test` before every release; the release script can also be told to run it (see UPDATE notes).
 
 ## Troubleshooting
 
