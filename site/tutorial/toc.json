@@ -778,6 +778,287 @@
      "file": "scikit-learn-introduction.md"
     }
    ]
+  },
+  {
+   "title": "Advanced Python language",
+   "topics": [
+    {
+     "id": "14.1",
+     "title": "Decorators in depth",
+     "level": "A",
+     "runs": "Local",
+     "file": "decorators-in-depth.md"
+    },
+    {
+     "id": "14.2",
+     "title": "Iterables, iterators and generators",
+     "level": "A",
+     "runs": "Local",
+     "file": "iterables-iterators-and-generators.md"
+    },
+    {
+     "id": "14.3",
+     "title": "Generator or list?",
+     "level": "A",
+     "runs": "Local",
+     "file": "generator-or-list.md"
+    },
+    {
+     "id": "14.4",
+     "title": "The GIL: what it blocks and what it does not",
+     "level": "A",
+     "runs": "Cloud",
+     "file": "the-gil-what-it-blocks-and-what-it-does-not.md"
+    },
+    {
+     "id": "14.5",
+     "title": "Mutable default arguments",
+     "level": "A",
+     "runs": "Local",
+     "file": "mutable-default-arguments.md"
+    },
+    {
+     "id": "14.6",
+     "title": "Context managers in depth",
+     "level": "A",
+     "runs": "Local",
+     "file": "context-managers-in-depth.md"
+    },
+    {
+     "id": "14.7",
+     "title": "Closures and late binding",
+     "level": "A",
+     "runs": "Local",
+     "file": "closures-and-late-binding.md"
+    },
+    {
+     "id": "14.8",
+     "title": "list, tuple, set, dict: complexity and hashing",
+     "level": "A",
+     "runs": "Local",
+     "file": "list-tuple-set-dict-complexity-and-hashing.md"
+    },
+    {
+     "id": "14.9",
+     "title": "Identity, equality and copying",
+     "level": "A",
+     "runs": "Local",
+     "file": "identity-equality-and-copying.md"
+    },
+    {
+     "id": "14.10",
+     "title": "Function signatures in depth",
+     "level": "A",
+     "runs": "Local",
+     "file": "function-signatures-in-depth.md"
+    },
+    {
+     "id": "14.11",
+     "title": "Dataclasses and type hints in depth",
+     "level": "A",
+     "runs": "Local",
+     "file": "dataclasses-and-type-hints-in-depth.md"
+    },
+    {
+     "id": "14.12",
+     "title": "__slots__",
+     "level": "A",
+     "runs": "Local",
+     "file": "slots.md"
+    },
+    {
+     "id": "14.13",
+     "title": "Descriptors",
+     "level": "A",
+     "runs": "Local",
+     "file": "descriptors.md"
+    },
+    {
+     "id": "14.14",
+     "title": "Metaclasses",
+     "level": "A",
+     "runs": "Local",
+     "file": "metaclasses.md"
+    },
+    {
+     "id": "14.15",
+     "title": "The import system and module caching",
+     "level": "A",
+     "runs": "Local",
+     "file": "the-import-system-and-module-caching.md"
+    },
+    {
+     "id": "14.16",
+     "title": "Garbage collection",
+     "level": "A",
+     "runs": "Local",
+     "file": "garbage-collection.md"
+    },
+    {
+     "id": "14.17",
+     "title": "Designing a clean public API",
+     "level": "A",
+     "runs": "Local",
+     "file": "designing-a-clean-public-api.md"
+    }
+   ]
+  },
+  {
+   "title": "Advanced concurrency and performance",
+   "topics": [
+    {
+     "id": "15.1",
+     "title": "Choosing a concurrency model",
+     "level": "A",
+     "runs": "Cloud",
+     "file": "choosing-a-concurrency-model.md"
+    },
+    {
+     "id": "15.2",
+     "title": "The GIL, NumPy and pandas",
+     "level": "A",
+     "runs": "Cloud",
+     "file": "the-gil-numpy-and-pandas.md"
+    },
+    {
+     "id": "15.3",
+     "title": "Free-threaded Python 3.13",
+     "level": "A",
+     "runs": "Cloud",
+     "file": "free-threaded-python-3-13.md"
+    },
+    {
+     "id": "15.4",
+     "title": "Async patterns: TaskGroup, timeouts, cancellation",
+     "level": "A",
+     "runs": "Local",
+     "file": "async-patterns-taskgroup-timeouts-cancellation.md"
+    },
+    {
+     "id": "15.5",
+     "title": "Back-pressure in an async service",
+     "level": "A",
+     "runs": "Local",
+     "file": "back-pressure-in-an-async-service.md"
+    },
+    {
+     "id": "15.6",
+     "title": "Multiprocessing: chunking and overhead",
+     "level": "A",
+     "runs": "Cloud",
+     "file": "multiprocessing-chunking-and-overhead.md"
+    },
+    {
+     "id": "15.7",
+     "title": "Profiling and finding bottlenecks",
+     "level": "A",
+     "runs": "Local",
+     "file": "profiling-and-finding-bottlenecks.md"
+    }
+   ]
+  },
+  {
+   "title": "Advanced NumPy and pandas",
+   "topics": [
+    {
+     "id": "16.1",
+     "title": "Broadcasting and vectorizing loops",
+     "level": "A",
+     "runs": "Package",
+     "file": "broadcasting-and-vectorizing-loops.md"
+    },
+    {
+     "id": "16.2",
+     "title": "NumPy views, copies and dtypes",
+     "level": "A",
+     "runs": "Package",
+     "file": "numpy-views-copies-and-dtypes.md"
+    },
+    {
+     "id": "16.3",
+     "title": "loc, iloc and label vs position",
+     "level": "A",
+     "runs": "Package",
+     "file": "loc-iloc-and-label-vs-position.md"
+    },
+    {
+     "id": "16.4",
+     "title": "Copy semantics and SettingWithCopy",
+     "level": "A",
+     "runs": "Package",
+     "file": "copy-semantics-and-settingwithcopy.md"
+    },
+    {
+     "id": "16.5",
+     "title": "Why apply(axis=1) is slow",
+     "level": "A",
+     "runs": "Package",
+     "file": "why-apply-axis-1-is-slow.md"
+    },
+    {
+     "id": "16.6",
+     "title": "Portfolio aggregation with groupby",
+     "level": "A",
+     "runs": "Package",
+     "file": "portfolio-aggregation-with-groupby.md"
+    },
+    {
+     "id": "16.7",
+     "title": "merge, join and concat",
+     "level": "A",
+     "runs": "Package",
+     "file": "merge-join-and-concat.md"
+    },
+    {
+     "id": "16.8",
+     "title": "merge_asof: as-of joins",
+     "level": "A",
+     "runs": "Package",
+     "file": "merge-asof-as-of-joins.md"
+    },
+    {
+     "id": "16.9",
+     "title": "Missing data in price series",
+     "level": "A",
+     "runs": "Package",
+     "file": "missing-data-in-price-series.md"
+    },
+    {
+     "id": "16.10",
+     "title": "Time series: resample, rolling, time zones",
+     "level": "A",
+     "runs": "Package",
+     "file": "time-series-resample-rolling-time-zones.md"
+    },
+    {
+     "id": "16.11",
+     "title": "Rolling beta, z-score and discount factors",
+     "level": "A",
+     "runs": "Package",
+     "file": "rolling-beta-z-score-and-discount-factors.md"
+    },
+    {
+     "id": "16.12",
+     "title": "MultiIndex pitfalls",
+     "level": "A",
+     "runs": "Package",
+     "file": "multiindex-pitfalls.md"
+    },
+    {
+     "id": "16.13",
+     "title": "Large tables: dtypes, chunking, Parquet",
+     "level": "A",
+     "runs": "Package",
+     "file": "large-tables-dtypes-chunking-parquet.md"
+    },
+    {
+     "id": "16.14",
+     "title": "Polars, DuckDB and Spark: when to move",
+     "level": "A",
+     "runs": "Local",
+     "file": "polars-duckdb-and-spark-when-to-move.md"
+    }
+   ]
   }
  ]
 }

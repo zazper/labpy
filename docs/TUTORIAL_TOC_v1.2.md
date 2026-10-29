@@ -1,6 +1,6 @@
 # LabPy Python Tutorial: Topic List
 
-> **Version 1.1** | Updated 2026-10-27 | File: `TUTORIAL_TOC_v1.1.md`
+> **Version 1.2** | Updated 2026-10-28 | File: `TUTORIAL_TOC_v1.2.md`
 
 Companions: [FEATURES_v1.2.md](FEATURES_v1.2.md), [ROADMAP_v1.2.md](ROADMAP_v1.2.md). The tutorial is organised **by topic** (no chapters or progress tracking yet). The order is a proposal and is meant to be changed.
 
@@ -179,14 +179,67 @@ Companions: [FEATURES_v1.2.md](FEATURES_v1.2.md), [ROADMAP_v1.2.md](ROADMAP_v1.2
 | 13.4 | SciPy | A | Package |
 | 13.5 | scikit-learn introduction | A | Package |
 
+### 14. Advanced Python language
+
+| ID | Topic | Level | Runs |
+|---|---|---|---|
+| 14.1 | Decorators in depth | A | Local |
+| 14.2 | Iterables, iterators and generators | A | Local |
+| 14.3 | Generator or list? | A | Local |
+| 14.4 | The GIL: what it blocks and what it does not | A | Cloud |
+| 14.5 | Mutable default arguments | A | Local |
+| 14.6 | Context managers in depth | A | Local |
+| 14.7 | Closures and late binding | A | Local |
+| 14.8 | list, tuple, set, dict: complexity and hashing | A | Local |
+| 14.9 | Identity, equality and copying | A | Local |
+| 14.10 | Function signatures in depth | A | Local |
+| 14.11 | Dataclasses and type hints in depth | A | Local |
+| 14.12 | __slots__ | A | Local |
+| 14.13 | Descriptors | A | Local |
+| 14.14 | Metaclasses | A | Local |
+| 14.15 | The import system and module caching | A | Local |
+| 14.16 | Garbage collection | A | Local |
+| 14.17 | Designing a clean public API | A | Local |
+
+### 15. Advanced concurrency and performance
+
+| ID | Topic | Level | Runs |
+|---|---|---|---|
+| 15.1 | Choosing a concurrency model | A | Cloud |
+| 15.2 | The GIL, NumPy and pandas | A | Cloud |
+| 15.3 | Free-threaded Python 3.13 | A | Cloud |
+| 15.4 | Async patterns: TaskGroup, timeouts, cancellation | A | Local |
+| 15.5 | Back-pressure in an async service | A | Local |
+| 15.6 | Multiprocessing: chunking and overhead | A | Cloud |
+| 15.7 | Profiling and finding bottlenecks | A | Local |
+
+### 16. Advanced NumPy and pandas
+
+| ID | Topic | Level | Runs |
+|---|---|---|---|
+| 16.1 | Broadcasting and vectorizing loops | A | Package |
+| 16.2 | NumPy views, copies and dtypes | A | Package |
+| 16.3 | loc, iloc and label vs position | A | Package |
+| 16.4 | Copy semantics and SettingWithCopy | A | Package |
+| 16.5 | Why apply(axis=1) is slow | A | Package |
+| 16.6 | Portfolio aggregation with groupby | A | Package |
+| 16.7 | merge, join and concat | A | Package |
+| 16.8 | merge_asof: as-of joins | A | Package |
+| 16.9 | Missing data in price series | A | Package |
+| 16.10 | Time series: resample, rolling, time zones | A | Package |
+| 16.11 | Rolling beta, z-score and discount factors | A | Package |
+| 16.12 | MultiIndex pitfalls | A | Package |
+| 16.13 | Large tables: dtypes, chunking, Parquet | A | Package |
+| 16.14 | Polars, DuckDB and Spark: when to move | A | Local |
+
 ## Summary
 
-- 13 groups and 102 topics.
-- 90 run locally with no extra download, 8 load a package on demand, 4 need the cloud runner.
+- 16 groups and 140 topics (groups 14 to 16 are the advanced deep dives).
+- 110 run locally with no extra download, 21 load a package on demand, 9 need the cloud runner (they are readable by everyone; their samples are locked).
 
 ## Status
 
-All 102 topics now have a written first draft (about 14,000 words and 290 runnable examples). Every example was run in real Python before release. Locked cloud samples are shown read-only in the app. Next steps: review the wording, add exercises, and add the missing "Welcome" style intro text where useful.
+All 140 topics have a written draft (about 30,000 words and 470 runnable examples). Every example was run in real Python before release. Groups 14 to 16 add interview-depth material on the Python language, concurrency and performance, and advanced NumPy and pandas with finance-flavoured examples. Next steps: review wording and technical claims, and add exercises.
 
 ## Suggested first release (20 topics)
 
@@ -241,3 +294,4 @@ Move rows in this document, then update `toc.json` to match, bump the minor vers
 |---|---|---|
 | 1.0 | 2026-10-26 | Initial topic list: 13 groups, 102 topics, starter set of 20 |
 | 1.1 | 2026-10-27 | All 102 topics written; status section added |
+| 1.2 | 2026-10-28 | Added groups 14 to 16 (38 advanced topics): advanced Python language, concurrency and performance, advanced NumPy and pandas |

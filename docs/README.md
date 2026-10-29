@@ -8,7 +8,7 @@ Index of design and planning documents. Update this table whenever a document ch
 | [ROADMAP_v1.2.md](ROADMAP_v1.2.md) | 1.2 | Phased plan, optional mobile track, dependencies |
 | [PRICING_v1.2.md](PRICING_v1.2.md) | 1.2 | Pricing model and metering |
 | [RUNNER_DESIGN_v1.0.md](RUNNER_DESIGN_v1.0.md) | 1.0 | Paid cloud runner: large files, threads, multiprocessing |
-| [TUTORIAL_TOC_v1.1.md](TUTORIAL_TOC_v1.1.md) | 1.1 | Python tutorial topic list (by topic), levels, flags, first release set |
+| [TUTORIAL_TOC_v1.2.md](TUTORIAL_TOC_v1.2.md) | 1.2 | Python tutorial topic list (by topic), levels, flags, first release set |
 | [MOBILE_APP_v1.1.md](MOBILE_APP_v1.1.md) | 1.1 | Optional Android and iPhone app: risks, gates, follow-ups |
 | [COLLAB_DESIGN_v1.0.md](COLLAB_DESIGN_v1.0.md) | 1.0 | Collaboration design (parked; usage under review) |
 
