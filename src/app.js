@@ -241,5 +241,23 @@ $('examples').onchange = (e) => {
   if (k && confirm('Replace your current files with this example?')) { scratch = {}; resetEditor({ ...EX[k] }); }
 };
 
+// ---------- support (donation) links, read from site/config.json ----------
+const safeUrl = (u) => { try { const x = new URL(u); return x.protocol === 'https:' ? x.href : ''; } catch (e) { return ''; } };
+fetch('config.json').then((r) => (r.ok ? r.json() : {})).catch(() => ({})).then((c) => {
+  const d = (c && c.donate) || {};
+  const pp = safeUrl(d.paypal), bmc = safeUrl(d.buyMeACoffee);
+  $('donatePaypal').hidden = !pp; if (pp) $('donatePaypal').href = pp;
+  $('donateBmc').hidden = !bmc; if (bmc) $('donateBmc').href = bmc;
+  document.body.classList.toggle('has-donate', !!(pp || bmc));   // hides every Support link when nothing is configured
+});
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('[data-support]')) return;
+  e.preventDefault();
+  if (!document.body.classList.contains('tut')) menu(false);
+  const dlg = $('support');
+  if (typeof dlg.showModal === 'function') dlg.showModal();
+});
+$('supportClose').onclick = () => $('support').close();
+
 open(ws.files[ws.active] !== undefined ? ws.active : Object.keys(ws.files)[0]);
 setState('Ready (Python loads on first Run)');

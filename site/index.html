@@ -41,6 +41,7 @@
     <hr>
     <button class="it" disabled>Sign in <span class="muted">· soon</span></button>
     <button class="it" disabled>Create free account <span class="muted">· soon</span></button>
+    <div id="supportBox"><hr><button class="it" id="supportBtn" data-support>Support LabPy</button></div>
   </aside>
   <aside id="topics" aria-label="Python topics">
     <div class="th"><span class="pair"><button id="mfold" aria-label="Collapse menu" title="Collapse menu">«</button><button id="tfold" aria-label="Collapse topics" title="Collapse topics">»</button></span><b>Python topics</b><button id="topicsClose" aria-label="Close tutorial">✕</button></div>
@@ -57,6 +58,16 @@
     </section>
   </section>
 </main>
+<dialog id="support" aria-labelledby="supportTitle">
+  <h2 id="supportTitle">Support LabPy</h2>
+  <p>LabPy is free to use. If it helps you, a small donation goes toward hosting and keeps the tutorial growing. Donations are optional and do not unlock anything.</p>
+  <div class="donate-row">
+    <a id="donatePaypal" class="btn primary" target="_blank" rel="noopener noreferrer" hidden>Donate with PayPal</a>
+    <a id="donateBmc" class="btn" target="_blank" rel="noopener noreferrer" hidden>Buy me a coffee</a>
+  </div>
+  <p class="muted small">Both open in a new tab on the provider's own site.</p>
+  <button id="supportClose">Close</button>
+</dialog>
 <input type="file" id="file" multiple hidden>
 <script src="app.js"></script>
 </body>

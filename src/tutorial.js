@@ -46,6 +46,7 @@ export function initTutorial({ trySample }) {
     } else html += '<p>This topic is coming soon.</p>';
     const i = flat.indexOf(t), p = flat[i - 1], n = flat[i + 1];
     html += `<div class="nav"><span>${p ? `<button data-go="${i - 1}">‹ ${esc(p.title)}</button>` : ''}</span><span>${n ? `<button data-go="${i + 1}">${esc(n.title)} ›</button>` : ''}</span></div>`;
+    html += '<div class="support-line">Found this useful? <button class="linkbtn" data-support>Support LabPy</button></div>';
     const doc = $('doc'); doc.innerHTML = html; doc.scrollTop = 0;
     doc.querySelectorAll('[data-i]').forEach((el) => el.addEventListener('click', (e) => {
       e.preventDefault();

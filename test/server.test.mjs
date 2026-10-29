@@ -40,7 +40,7 @@ test('the home page is served', async () => {
 });
 
 test('every page and file carries the COOP/COEP headers (needed for input())', async () => {
-  for (const p of ['/', '/worker.js', '/style.css', '/tutorial/toc.json']) {
+  for (const p of ['/', '/worker.js', '/style.css', '/config.json', '/tutorial/toc.json']) {
     const r = await get(p);
     assert.equal(r.status, 200, p);
     assert.equal(r.headers.get('cross-origin-opener-policy'), 'same-origin', `${p}: COOP header`);
